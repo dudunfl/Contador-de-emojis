@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'font-desenho';
+    src: url('fonts/Daddy Cartoon.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'font-desenho', Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #6F7BBF;
+    background-image: linear-gradient(to right, white, #6F7BBF);
+}
+
+header {
+    color: #3A08A6;
+}
+
+section {
+    color: #3A08A6;
+}
+
+footer {
+    color: #3A08A6;
+    font-style: italic;
+}
