@@ -1,28 +1,44 @@
-@charset "UTF-8";
-@font-face {
-    font-family: 'font-desenho';
-    src: url('fonts/Daddy Cartoon.otf')format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: 'font-desenho', Helvetica, sans-serif;
-    font-size: 16px;
-    text-align: center;
-    background-color: #6F7BBF;
-    background-image: linear-gradient(to right, white, #6F7BBF);
-}
-
-header {
-    color: #3A08A6;
-}
-
-section {
-    color: #3A08A6;
-}
-
-footer {
-    color: #3A08A6;
-    font-style: italic;
-}
+    @charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    @font-face {
+        font-family: 'font-desenho';
+        src: url('fonts/Daddy Cartoon.otf')format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'font-desenho', Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        background-color: #6F7BBF;
+        background-image: linear-gradient(to right, white, #6F7BBF);
+    }
+    
+    header {
+        color: #3A08A6;
+    }
+    
+    section {
+        color: #3A08A6;
+        font-family: 'Kaushan Script', Times, serif;
+        font-weight: bolder;
+        background-color: rgba(106, 101, 245, 0.575);
+        padding: 30px;
+        width: 600px;
+        margin: auto;
+        box-shadow: 5px 5px 5px #0C0826;
+    }
+    
+    footer {
+        color: #3A08A6;
+        font-family: 'Kaushan Script', Times, serif;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    
+    h1#titulo {
+        text-shadow: 1px 1px 2px white;
+        text-indent: 12px;
+        text-decoration: underline;
+    }
